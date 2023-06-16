@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Sort {
     public static void main(String[] args) {
         int[] arr = {1, 3, 4, 2};
@@ -9,8 +11,10 @@ public class Sort {
                     int temp = arr[j];
                     arr[j] = arr[j+1];
                     arr[j+1] = temp;
-                    //System.out.print(arr);
+                    //System.out.println(Arrays.toString(arr));
+                    //System.out.print(arr[j]);
                 }
+                System.out.println(Arrays.toString(arr));
             }
         }
 
